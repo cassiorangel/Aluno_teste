@@ -6,6 +6,7 @@
 		<meta charset="UTF-8">
 		<title>HTML</title>
 		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+		<script type="text/javascript" src="js/dinamico.js"></script>
 	</head>
 
 		<body>
@@ -20,7 +21,7 @@
 						
 							<div>
 								<label for="nome">Nome:</label>
-								<input type="text" name="nome" id="nome" />
+								<input type="text" name="nome" id="nome" required="" />
 							</div>
 
 							<div>
@@ -46,7 +47,7 @@
 							<hr>
 
 							<div>
-								<input type="button" value="cadastrar">
+								<input type="button" value="cadastrar" onclick="cadastrarPessoas()">
 							</div>
 
 
